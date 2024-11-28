@@ -3,8 +3,9 @@ import { FaUserCircle } from "react-icons/fa";
 const Header = () => {
     return (
         <div className="container mx-auto mt-1">
-            <header className="flex justify-between items-center  lexend">
-                <div>
+            <header className="md:flex justify-between items-center  lexend">
+                <div className="flex justify-center items-center gap-2">
+                    <img className="w-10" src="/src/assets/leaf.jpg" alt="" />
                     <h2 className="text-3xl font-bold">Nutritious Table</h2>
                 </div>
                 <div>
