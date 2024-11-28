@@ -1,0 +1,118 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co.com/Sfkp9Nh/Spaghetti-Bolognes.jpg",
+        "recipe_id": "1",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "A classic Italian pasta dish with rich, savory bolognese sauce.",
+        "ingredients": [
+            "200g spaghetti",
+            "400g ground beef",
+            "1 onion, chopped",
+            "2 garlic cloves, minced",
+            "400g canned tomatoes",
+            "2 tbsp tomato paste",
+            "1 tsp dried oregano",
+            "1 tsp dried basil",
+            "Salt and pepper to taste",
+            "Grated Parmesan cheese"
+        ],
+        "preparing_time": "30 minutes",
+        "calories": "550 kcal",
+        "recipe_type": "Nutritious"
+    },
+    {
+        "recipe_image": "https://i.ibb.co.com/cxtcVhB/Chicken-Salad.jpg",
+        "recipe_id": "2",
+        "recipe_name": "Chicken Salad",
+        "short_description": "A healthy and refreshing salad with grilled chicken and vegetables.",
+        "ingredients": [
+            "200g grilled chicken breast",
+            "1 cup mixed greens",
+            "1/2 cucumber, sliced",
+            "1/2 red bell pepper, chopped",
+            "1/4 red onion, thinly sliced",
+            "1/4 avocado, diced",
+            "1 tbsp olive oil",
+            "1 tbsp balsamic vinegar",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": "350 kcal",
+        "recipe_type": "Nutritious"
+    },
+    {
+        "recipe_image": "https://i.ibb.co.com/KzN31Yv/Vegetable-Stir-Fry.jpg",
+        "recipe_id": "3",
+        "recipe_name": "Vegetable Stir-Fry",
+        "short_description": "A colorful and nutritious stir-fry with mixed vegetables and soy sauce.",
+        "ingredients": [
+            "1 tbsp olive oil",
+            "1 bell pepper, sliced",
+            "1 carrot, sliced",
+            "1 zucchini, sliced",
+            "100g broccoli florets",
+            "2 tbsp soy sauce",
+            "1 tsp ginger, grated",
+            "1 garlic clove, minced",
+            "1 tsp sesame seeds"
+        ],
+        "preparing_time": "20 minutes",
+        "calories": "220 kcal",
+        "recipe_type": "Nutritious"
+    },
+    {
+        "recipe_image": "https://i.ibb.co.com/hR09nZk/Grilled-Salmon.jpg",
+        "recipe_id": "4",
+        "recipe_name": "Grilled Salmon",
+        "short_description": "A simple and healthy grilled salmon with lemon and herbs.",
+        "ingredients": [
+            "2 salmon fillets",
+            "1 tbsp olive oil",
+            "1 lemon, sliced",
+            "1 tbsp fresh dill, chopped",
+            "1 garlic clove, minced",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": "15 minutes",
+        "calories": "400 kcal",
+        "recipe_type": "Nutritious"
+    },
+    {
+        "recipe_image": "https://i.ibb.co.com/mBQtVqS/Avocado-Toast.jpg",
+        "recipe_id": "5",
+        "recipe_name": "Avocado Toast",
+        "short_description": "A quick and delicious breakfast with mashed avocado on toast.",
+        "ingredients": [
+            "1 ripe avocado",
+            "2 slices whole grain bread",
+            "1 tbsp lemon juice",
+            "Salt and pepper to taste",
+            "Chili flakes (optional)",
+            "1 egg (optional)"
+        ],
+        "preparing_time": "10 minutes",
+        "calories": "350 kcal",
+        "recipe_type": "Nutritious"
+    },
+    {
+        "recipe_image": "https://i.ibb.co.com/gPMcSCm/Chocolate-Muffins.jpg",
+        "recipe_id": "6",
+        "recipe_name": "Chocolate Muffins",
+        "short_description": "Soft and moist chocolate muffins perfect for dessert or a snack.",
+        "ingredients": [
+            "200g all-purpose flour",
+            "150g sugar",
+            "50g cocoa powder",
+            "1 tsp baking powder",
+            "1/2 tsp baking soda",
+            "1/2 tsp salt",
+            "2 eggs",
+            "100g butter, melted",
+            "100ml milk",
+            "100g chocolate chips"
+        ],
+        "preparing_time": "25 minutes",
+        "calories": "350 kcal per muffin",
+        "recipe_type": "Nutritious"
+    }
+]

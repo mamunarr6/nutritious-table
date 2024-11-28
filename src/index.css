@@ -1,0 +1,14 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lexend:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fira-sans {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.lexend {
+    font-family: "Lexend", sans-serif;
+}
