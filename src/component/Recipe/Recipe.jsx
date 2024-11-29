@@ -2,10 +2,9 @@ import { IoMdTime } from "react-icons/io";
 import { AiOutlineFire } from "react-icons/ai";
 import PropTypes from 'prop-types'
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleWantToCook }) => {
     let { recipe_name, short_description, recipe_image, ingredients, preparing_time, calories } = recipe;
-    console.log(recipe);
-    ingredients.forEach(el => console.log(el))
+
     return (
         <div className='col-span-1 space-y-4 my-5 px-7 py-5 border border-gray-300 rounded-lg flex flex-col'>
             <div className='flex justify-center items-center'>
@@ -27,13 +26,14 @@ const Recipe = ({ recipe }) => {
                 <p className="flex items-center gap-1 justify-center"><IoMdTime className="text-xl" /> {preparing_time}</p>
                 <p className="flex items-center gap-1 justify-center"><AiOutlineFire className="text-xl" /> {calories}</p>
             </div>
-            <button className="bg-green-600 text-white px-4 py-2 rounded-full lexend text-lg font-medium">Want to Cook</button>
+            <button onClick={() => handleWantToCook(recipe)} className="bg-green-600 text-white px-4 py-2 rounded-full lexend text-lg font-medium">Want to Cook</button>
         </div>
     )
 }
 
 Recipe.propTypes = {
-    recipe: PropTypes.object
+    recipe: PropTypes.object,
+    handleWantToCook: PropTypes.func
 }
 
 export default Recipe
