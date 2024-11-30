@@ -26,7 +26,7 @@ const Recipe = ({ recipe, handleWantToCook }) => {
                 <p className="flex items-center gap-1 justify-center"><IoMdTime className="text-xl" /> {preparing_time}</p>
                 <p className="flex items-center gap-1 justify-center"><AiOutlineFire className="text-xl" /> {calories}</p>
             </div>
-            <button onClick={() => handleWantToCook(recipe, recipe_id)} className="bg-green-600 text-white px-4 py-2 rounded-full lexend text-lg font-medium">Want to Cook</button>
+            <button onClick={() => handleWantToCook(recipe, recipe_id)} className="bg-green-600 text-white px-4 py-2 rounded-full lexend text-lg font-medium border-2 border-green-600 hover:bg-transparent hover:text-green-600 transition-all">Want to Cook</button>
         </div>
     )
 }
